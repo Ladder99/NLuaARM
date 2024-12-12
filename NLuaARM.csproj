@@ -12,4 +12,10 @@
       <PackageReference Include="NLua" Version="1.7.3" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Update="liblua54.so">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
 </Project>
